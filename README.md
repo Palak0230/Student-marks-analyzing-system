@@ -1,61 +1,26 @@
-# Student-marks-analyzing-system
-Student Marks Analyzing System
-🚀 Project Overview
-Python-based system to analyze student exam scores
+Student-result-analysis-system
+📊 Student Result Analysis System (Python + Pandas) This project is a Student Result Analysis System built using Python and Pandas. It reads student scores from an Excel file, processes the data, and generates detailed insights such as total marks, percentage, pass/fail status, grade classification, and subject-wise performance statistics. The results are exported as CSV reports.
 
-Computes grades, GPA, class averages, pass/fail rates, and rankings
+🔧 Features Load student marks from an Excel file (results.xlsx)
 
-Generates visual charts for performance insights
+Compute:
 
-Designed for educators and institutions to simplify grading and reporting
+✅ Total marks
 
-🛠️ Features
-Marks input with validation
+✅ Percentage (rounded to 2 decimals)
 
-Grade and GPA calculation
+✅ Pass/Fail based on subject-wise marks (< 35 = Fail)
 
-Statistical analysis of student performance
+✅ Grade (A++ to F) based on percentage
 
-Visualizations using Matplotlib
+✅ Average marks per subject
 
-Exportable reports
+✅ Subject-wise highest and lowest scorers
 
-🔧 Technologies Used
-Python
+✅ Per-student average score
 
-Pandas for data manipulation
+Export:
 
-NumPy for numerical operations
+📁 FINAL REPORT.csv — full processed result
 
-Matplotlib for data visualization
-
-⚡ How to Use
-Clone the repository
-
-Install dependencies (requirements.txt)
-
-Run the main script and follow the prompts to input student marks
-
-View generated stats and charts
-
-📁 Repository Structure
-src/ - Source code files
-
-data/ - Sample student marks datasets
-
-reports/ - Generated analysis reports
-
-README.md - Project documentation
-
-🎯 Purpose
-Help educators analyze student performance efficiently
-
-Identify trends and at-risk students quickly
-
-Aid in data-driven academic decision-making
-
-
-📞 Contact
-Developer: Palak
-
-GitHub: https://github.com/Palak0230
+📁 pass student.csv and Fail student.csv — filtered student lists
