@@ -1,4 +1,4 @@
-#Student-result-analysis-system
+Student-result-analysis-system
 
 📊 Student Result Analysis System (Python + Pandas) This project is a Student Result Analysis System built using Python and Pandas. It reads student scores from an Excel file, processes the data, and generates detailed insights such as total marks, percentage, pass/fail status, grade classification, and subject-wise performance statistics. The results are exported as CSV reports.
 
